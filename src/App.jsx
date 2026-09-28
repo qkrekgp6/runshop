@@ -5,7 +5,7 @@ import Header from './component/Header';
 import ProductDetail from './component/ProductDetail';
 import Toast from './component/Toast';
 import Footer from './component/Footer';
-
+import Modal from './component/Modal';
 function App() {
   //장바구니에 감긴 상품 갯수
   const [cartCount, setcartCount] = useState(0);
